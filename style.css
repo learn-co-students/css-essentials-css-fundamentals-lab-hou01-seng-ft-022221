@@ -1,5 +1,43 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav > a {
+  background-color: silver;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  text-align: center;
+  font-size: 12px;
+  color: red;
+}
+
+#featured-property > p {
+  max-width: 800px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#details > div {
+  background-color: silver;
+  text-align: center;
+  width: 25%;
+  float: left;
 }
